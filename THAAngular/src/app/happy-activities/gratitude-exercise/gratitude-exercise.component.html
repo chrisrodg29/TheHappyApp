@@ -1,0 +1,31 @@
+<div class="container">
+
+  <h1>The Gratitude Exercise</h1>
+
+  <p>Our study showed that gratitude boosts happiness for a variety of reasons - which is why Prof. Sonja Lyubomirsky
+    calls it a "meta strategy". This exercise involves showing gratitude to a person who has had a positive influence in
+    your life.</p>
+
+  <p>The first step involves thinking of someone who had a positive influence on your life. This person could be someone
+    from your past (e.g., teacher, mentor) or present (e.g., friend, spouse). It is ideal to think of someone who is
+    still alive. If you prefer to write your letter to someone who has passed on, read the letter to someone who knew
+    this person. For example, if you write your letter to your late uncle,
+    you could read it to your uncle’s sister, wife, son, etc.</p>
+
+  <p>In the space below, type out the name of the recipient of your letter:</p>
+  <label class="mr-2">Recipient</label>
+  <input type="text">
+
+  <p>Now, think of all the reasons why this person had a positive influence in your life and then type out your thoughts
+    in the space below in the form of a letter. Make this a relatively longish letter, but not too long. You should aim
+    to write three or four paragraphs.</p>
+
+  <textarea type="textarea" rows="10" cols="100" maxlength="20000" [ngStyle]="{'resize': 'none'}"></textarea>
+
+  <p>Adapted from <span>If You're So Smart, Why Aren't You Happy?</span></p>
+
+  <div class="col-sm-4">
+    <button class="btn btn-primary" (click)="onSave()">Save</button>
+  </div>
+
+</div>
